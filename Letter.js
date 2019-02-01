@@ -1,6 +1,9 @@
 var Letter = function(alph) {
     this.character=alph;
     this.reveal=false;
+    if (this.character === " "){
+        this.reveal=true
+    }
     this.disPlay = function(){
         if (this.reveal) {
             return this.character
@@ -15,11 +18,12 @@ var Letter = function(alph) {
     };
 };
 
-// var A = "a"
+// var A = " "
 // var B = process.argv[2]
 // var test = new Letter(A)
+// console.log(test)
 // test.check(B)
 // console.log(test)
-// console.log(test.disPlay())
+//console.log(test.disPlay())
 
 module.exports = Letter;
