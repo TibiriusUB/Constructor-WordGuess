@@ -1,12 +1,12 @@
 var Letter = function(alph) {
-    this.character=alph;
+    this.character=alph.toLowerCase()
     this.reveal=false;
     if (this.character === " "){
         this.reveal=true
     }
     this.disPlay = function(){
         if (this.reveal) {
-            return this.character
+            return this.character.toUpperCase()
         }else{
             return "_"
         };

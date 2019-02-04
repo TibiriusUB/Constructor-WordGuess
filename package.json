@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/TibiriusUB/Constructor-WordGuess/issues"
   },
-  "homepage": "https://github.com/TibiriusUB/Constructor-WordGuess#readme"
+  "homepage": "https://github.com/TibiriusUB/Constructor-WordGuess#readme",
+  "dependencies": {
+    "inquirer": "^6.2.2"
+  }
 }
